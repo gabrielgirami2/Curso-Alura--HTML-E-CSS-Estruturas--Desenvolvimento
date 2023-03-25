@@ -1,0 +1,23 @@
+/*Tirando espaçamento e espaçamento do titulo para o texto */
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    height: 100vh; /* altura do body, 100% da tela */
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+/* criando classe */
+.titulo-destaque {
+    color: #22d4fd
+}
+
+.apresentacao {
+    display: flex; /* Coloca os elementos em efeito de linha */
+    align-items: center;
+}
+
