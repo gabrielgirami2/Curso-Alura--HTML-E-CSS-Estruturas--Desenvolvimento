@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
 /*Tirando espaçamento e espaçamento do titulo para o texto */
 * {
     margin: 0;
@@ -17,7 +19,40 @@ body {
 }
 
 .apresentacao {
+    margin: 10% 15%;
     display: flex; /* Coloca os elementos em efeito de linha */
     align-items: center;
+    justify-content:space-between; /* Responsável por justificar, formatando  o texto */
 }
 
+.apresentacao__conteudo{
+    width: 615px; /* largura*/
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family:'Krona One', sans-serif;
+}
+.apresentacao__conteudo__paragrafo{
+    font-size: 24px;
+    font-family:'Montserrat', sans-serif;
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: #22d4fd ;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px; /*borda de algum lugar*/
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0; /*primeiro valor eixo vertical, segundo horizontal */
+    text-decoration: none; /* retira o sublinhado da palavra */
+    color: black;
+    font-family:'Montserrat', sans-serif;
+}
