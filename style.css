@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh; /* altura do body, 100% da tela */
+    /* height: 100vh; altura do body, 100% da tela */
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
@@ -19,7 +19,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex; /* Coloca os elementos em efeito de linha */
     align-items: center;
     justify-content:space-between; /* Responsável por justificar, formatando  o texto */
@@ -71,4 +71,14 @@ body {
 
 .apresentacao__links__link:hover{
     background-color: #272727;
+}
+
+.rodape{
+    text-align: center;
+    padding: 24px;
+    color: #000000;
+    background-color: #22d4fd;
+    font-family: 'MontSerrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
