@@ -13,13 +13,24 @@ body {
     color: #F6F6F6;
 }
 
-/* criando classe */
-.titulo-destaque {
-    color: #22d4fd
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex; /* Coloca os elementos em efeito de linha */
     align-items: center;
     justify-content:space-between; /* Responsável por justificar, formatando  o texto */
@@ -35,6 +46,11 @@ body {
     font-size: 36px;
     font-family:'Krona One', sans-serif;
 }
+/* criando classe */
+.titulo-destaque {
+    color: #22d4fd
+}
+
 .apresentacao__conteudo__paragrafo{
     font-size: 24px;
     font-family:'Montserrat', sans-serif;
